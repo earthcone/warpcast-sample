@@ -9,6 +9,11 @@ async function getResponse(): Promise<NextResponse> {
         aspectRatio: '1:1',
         src: `${NEXT_PUBLIC_URL}/roulette/died.png`,
       },
+      buttons: [
+        {
+          label: 'run',
+          action: 'link',
+          target: 'https://www.naver.com'
     }),
   );
 }
