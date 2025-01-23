@@ -5,15 +5,17 @@ import { getFrameHtmlResponse } from '../../../../utils/getFrameHtmlResponse';
 async function getResponse(): Promise<NextResponse> {
   return new NextResponse(
     getFrameHtmlResponse({
+      buttons: [
+        {
+          action: 'link',
+          label: 'run',
+          target: 'https://www.naver.com',
+        },
+      ],
       image: {
         aspectRatio: '1:1',
         src: `${NEXT_PUBLIC_URL}/roulette/died.png`,
       },
-      buttons: [
-        {
-          label: 'run',
-          action: 'link',
-          target: 'https://www.naver.com'
     }),
   );
 }
