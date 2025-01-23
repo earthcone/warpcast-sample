@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     'fc:frame:button:2': 'Stop',
     'fc:frame:button:2:action': 'post',
     'fc:frame:button:2:post_url': `${NEXT_PUBLIC_URL}/api/roulette/stop`,
-    'fc:frame:image': `${NEXT_PUBLIC_URL}/roulette/hey.png`,
+    'fc:frame:image': `${NEXT_PUBLIC_URL}/roulette/o_noob.png`,
     'fc:frame:image:aspect_ratio': '1:1',
   },
   title: 'roulette',
